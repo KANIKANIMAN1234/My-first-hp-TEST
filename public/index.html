@@ -3,304 +3,234 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI実践 — AIを武器に、稼ぐ力を手に入れる</title>
-  <meta name="description" content="AIを活用してお金を稼げるようにする。理論で終わらず、技術を稼ぐ手段へ。まず動く、実践の場。">
+  <title>AI実践起業塾 | 次世代のAIエンジニアとして稼ぐための実践的スクール</title>
+  <meta name="description" content="実務で稼げるAIエンジニアになる。AIを「使う」側から「作る」側へ。300超の動画コンテンツで実践スキルを習得。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ========== HEADER ========== -->
-  <header class="site-header" id="site-header">
+  <header class="site-header">
     <div class="site-header__inner">
-      <a href="#" class="site-logo">
-        <span class="site-logo__mark">AI</span><span class="site-logo__text">実践</span>
-      </a>
-
+      <a href="#hero" class="site-logo">AI実践起業塾</a>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
         <span class="nav-toggle__bar"></span>
         <span class="nav-toggle__bar"></span>
         <span class="nav-toggle__bar"></span>
       </button>
-
       <nav id="global-nav" class="global-nav" aria-label="主要ナビゲーション">
         <ul class="global-nav__list">
-          <li><a href="#value" class="global-nav__link">行動指針</a></li>
-          <li><a href="#services" class="global-nav__link">サービス</a></li>
-          <li><a href="#profile" class="global-nav__link">実績</a></li>
-          <li><a href="#cta" class="global-nav__cta">無料相談</a></li>
+          <li><a href="#intro">はじめに</a></li>
+          <li><a href="#features">特徴</a></li>
+          <li><a href="#curriculum">カリキュラム</a></li>
+          <li><a href="#founders">発起人</a></li>
+          <li><a href="#pricing">料金</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://timerex.net/s/kanikaniman1234_00ba/202fa228/" class="global-nav__cta" target="_blank" rel="noopener noreferrer">無料カウンセリング</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-
-    <!-- ========== HERO ========== -->
-    <section id="hero" class="hero" aria-labelledby="hero-title">
-      <!-- 背景の幾何学的アクセント -->
-      <div class="hero__bg-accent hero__bg-accent--1" aria-hidden="true"></div>
-      <div class="hero__bg-accent hero__bg-accent--2" aria-hidden="true"></div>
-      <div class="hero__bg-grid" aria-hidden="true"></div>
-
+    <!-- ファーストビュー -->
+    <section id="hero" class="hero anchor-target" aria-labelledby="hero-title">
       <div class="hero__inner">
-        <div class="hero__content">
-          <p class="hero__eyebrow">
-            <span class="hero__eyebrow-dot" aria-hidden="true"></span>
-            Mission — AIで稼ぐ、を現実にする
-          </p>
-
-          <h1 id="hero-title" class="hero__title">
-            AIを武器に、<br>稼ぐ力を<br class="hero__br--sp">手に入れる
-          </h1>
-
-          <p class="hero__lead">
-            関わる全ての人が、AIを活用してお金を稼げるようにする。<br>
-            理論で終わらず、技術を「稼ぐ手段」へと昇華させる実践の場。
-          </p>
-
-          <div class="hero__actions">
-            <a href="#cta" class="btn btn--primary btn--hero">
-              まず動く（無料相談）
-              <svg class="btn__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <a href="#services" class="btn btn--text">
-              サービスを見る
-              <svg class="btn__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 4v12M4 10l6 6 6-6" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-          </div>
-        </div>
-
-        <dl class="hero__stats" aria-label="実績データ">
+        <p class="hero__badge">2026年 AI補助金時代の到来</p>
+        <h1 id="hero-title" class="hero__title">
+          AIを「使う」側から<br class="hero__br">「作る」側へ
+        </h1>
+        <p class="hero__lead">
+          実務で稼げるAIエンジニアになる。<br>
+          市場価値を爆発させる最大のチャンスは、今この瞬間。
+        </p>
+        <p class="hero__limited">期間限定</p>
+        <p class="hero__sub">
+          2026年4月の新年度予算サイクルに向けて、今から準備を開始しましょう
+        </p>
+        <dl class="hero__stats">
           <div class="hero__stat">
-            <dd class="hero__stat-value">
-              <span class="hero__stat-num" data-count="300">0</span><span class="hero__stat-suffix">+</span>
-            </dd>
-            <dt class="hero__stat-label">サポート実績</dt>
+            <dt class="hero__stat-label">動画コンテンツ</dt>
+            <dd class="hero__stat-value"><span class="hero__stat-num">300</span><span class="hero__stat-unit">超</span></dd>
           </div>
-          <div class="hero__stat-divider" aria-hidden="true"></div>
           <div class="hero__stat">
-            <dd class="hero__stat-value">
-              <span class="hero__stat-num" data-count="11">0</span><span class="hero__stat-suffix">カテゴリ</span>
-            </dd>
-            <dt class="hero__stat-label">実践コンテンツ</dt>
-          </div>
-          <div class="hero__stat-divider" aria-hidden="true"></div>
-          <div class="hero__stat">
-            <dd class="hero__stat-value">
-              <span class="hero__stat-num" data-count="98">0</span><span class="hero__stat-suffix">%</span>
-            </dd>
-            <dt class="hero__stat-label">継続率</dt>
+            <dt class="hero__stat-label">学習カテゴリ</dt>
+            <dd class="hero__stat-value"><span class="hero__stat-num">11</span><span class="hero__stat-unit">カテゴリ</span></dd>
           </div>
         </dl>
+        <a href="https://timerex.net/s/kanikaniman1234_00ba/202fa228/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">無料カウンセリングを予約する</a>
       </div>
-
-      <!-- スクロールインジケーター -->
-      <a href="#value" class="hero__scroll" aria-label="次のセクションへ">
-        <span class="hero__scroll-line" aria-hidden="true"></span>
-        <span class="hero__scroll-label">Scroll</span>
-      </a>
     </section>
 
-    <!-- ========== VALUE ========== -->
-    <section id="value" class="section section--value" aria-labelledby="value-title">
+    <!-- はじめに -->
+    <section id="intro" class="section section--alt anchor-target" aria-labelledby="intro-title">
       <div class="section__inner">
-        <div class="section__header">
-          <p class="section__eyebrow">Our Value</p>
-          <h2 id="value-title" class="section__title">なぜ「まず動く」のか</h2>
-          <p class="section__lead">
-            完璧を待つより、小さくても動く。AI時代は<strong>試行錯誤のスピード</strong>が競争力です。
-          </p>
-        </div>
+        <p class="section__eyebrow" lang="en">Introduction</p>
+        <h2 id="intro-title" class="section__title">なぜ今、AI実装スキルが必要なのか</h2>
+        <p class="section__lead">
+          AIは単なる流行ではなく、ビジネスとキャリアを伸ばすための<strong>実装力</strong>が問われる時代です。プログラミング未経験からでも、要件定義から実装まで「動くもの」を作る経験を積み上げ、AIエンジニアとして自立できる環境を用意しています。
+        </p>
+        <p class="section__body">
+          理論だけで終わらず、最新のAI技術を<strong>稼ぐ手段</strong>へとつなげる。それがAI実践起業塾のスタンスです。
+        </p>
+      </div>
+    </section>
 
+    <!-- 特徴 -->
+    <section id="features" class="section anchor-target" aria-labelledby="features-title">
+      <div class="section__inner">
+        <p class="section__eyebrow" lang="en">Our Features</p>
+        <h2 id="features-title" class="section__title">AI実践起業塾の4つの特徴</h2>
         <div class="value-grid">
-          <article class="value-card" data-index="01">
-            <div class="value-card__num" aria-hidden="true">01</div>
-            <div class="value-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity=".2"/><path d="M18 24l5 5 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3 class="value-card__title">迷いより行動</h3>
+          <article class="value-card">
+            <p class="value-card__step" lang="en">01</p>
+            <h3 class="value-card__title">初心者でも安心</h3>
             <p class="value-card__text">
-              完璧を待つより、小さくても成果物を出す。AI時代は試行錯誤のスピードが競争力になります。
+              プログラミング未経験からでもAIエンジニアとして自立できる環境を提供します。
             </p>
           </article>
-
-          <article class="value-card" data-index="02">
-            <div class="value-card__num" aria-hidden="true">02</div>
-            <div class="value-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity=".2"/><path d="M16 28c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="18" r="2" fill="currentColor"/></svg>
-            </div>
-            <h3 class="value-card__title">本質を捉える</h3>
+          <article class="value-card">
+            <p class="value-card__step" lang="en">02</p>
+            <h3 class="value-card__title">実務直結のカリキュラム</h3>
             <p class="value-card__text">
-              深い思考力で「何が稼げるか」を見極め、流行に流されない戦略を一緒に組み立てます。
+              要件定義から実装まで、実際に動くものを作る経験を積み上げます。
             </p>
           </article>
-
-          <article class="value-card" data-index="03">
-            <div class="value-card__num" aria-hidden="true">03</div>
-            <div class="value-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity=".2"/><path d="M20 32V22l4-4 4 4v10M16 32h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3 class="value-card__title">技術を収益へ</h3>
+          <article class="value-card">
+            <p class="value-card__step" lang="en">03</p>
+            <h3 class="value-card__title">永年参加権</h3>
             <p class="value-card__text">
-              最新AIの使いこなしは手段。目的は「稼ぐ」こと。実践主義で伴走します。
+              一度入塾すれば、300超の動画コンテンツに永年アクセス可能です。
+            </p>
+          </article>
+          <article class="value-card">
+            <p class="value-card__step" lang="en">04</p>
+            <h3 class="value-card__title">最新技術を網羅</h3>
+            <p class="value-card__text">
+              ManusAI、BananaNL、GAS連携など、最先端のAI技術を習得できます。
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ========== SERVICES ========== -->
-    <section id="services" class="section section--services" aria-labelledby="services-title">
+    <!-- カリキュラム -->
+    <section id="curriculum" class="section section--alt anchor-target" aria-labelledby="curriculum-title">
       <div class="section__inner">
-        <div class="section__header">
-          <p class="section__eyebrow">Services</p>
-          <h2 id="services-title" class="section__title">実践メニュー</h2>
-          <p class="section__lead">
-            技術力と思考力に基づいた、収益化に直結するプログラムです。
-          </p>
-        </div>
-
-        <div class="service-list">
-          <article class="service-item">
-            <div class="service-item__head">
-              <span class="service-item__num">01</span>
-              <h3 class="service-item__title">AI実装・案件獲得</h3>
-            </div>
-            <p class="service-item__text">要件整理から納品まで、実務で通用するAIスキルを習得し、高単価案件へつなげます。</p>
-            <ul class="service-item__tags">
-              <li>ChatGPT API</li>
-              <li>プロンプト設計</li>
-              <li>案件獲得戦略</li>
-            </ul>
-          </article>
-
-          <article class="service-item">
-            <div class="service-item__head">
-              <span class="service-item__num">02</span>
-              <h3 class="service-item__title">副業・事業の設計</h3>
-            </div>
-            <p class="service-item__text">AIを軸にした収益モデルを一緒に設計。行動計画まで落とし込みます。</p>
-            <ul class="service-item__tags">
-              <li>収益モデル設計</li>
-              <li>ロードマップ策定</li>
-              <li>市場分析</li>
-            </ul>
-          </article>
-
-          <article class="service-item">
-            <div class="service-item__head">
-              <span class="service-item__num">03</span>
-              <h3 class="service-item__title">伴走・コミュニティ</h3>
-            </div>
-            <p class="service-item__text">動き続けられる環境とフィードバックで、継続と改善をサポートします。</p>
-            <ul class="service-item__tags">
-              <li>週次フィードバック</li>
-              <li>コミュニティ参加</li>
-              <li>成果報告会</li>
-            </ul>
-          </article>
-        </div>
+        <p class="section__eyebrow" lang="en">Curriculum</p>
+        <h2 id="curriculum-title" class="section__title">300超の動画で、実務スキルを習得</h2>
+        <p class="section__lead">
+          <strong>11のカテゴリー</strong>に整理されたコンテンツで、現場で通用するAI実装スキルを段階的に学べます。毎週開催の定期セミナーでは、最新トレンドの解説や質疑応答にも対応。アーカイブもご用意しています。
+        </p>
+        <ul class="curriculum-highlights">
+          <li>要件定義からリリースまでを一気通貫で学べる構成</li>
+          <li>ノンプログラマーからでも、独立・高単価案件を目指せるロードマップ</li>
+          <li>学び続けられるよう、コンテンツは随時アップデート</li>
+        </ul>
       </div>
     </section>
 
-    <!-- ========== PROFILE ========== -->
-    <section id="profile" class="section section--profile" aria-labelledby="profile-title">
+    <!-- 発起人 -->
+    <section id="founders" class="section anchor-target" aria-labelledby="founders-title">
       <div class="section__inner">
-        <div class="profile-layout">
-          <div class="profile-layout__main">
-            <p class="section__eyebrow">Profile</p>
-            <h2 id="profile-title" class="section__title">プロフィール・実績</h2>
-            <p class="profile__lead">
-              <strong>圧倒的な行動力</strong>と<strong>深い思考力</strong>、<strong>高い技術力</strong>を掛け合わせ、クライアントの「稼ぐ」まで伴走します。
+        <p class="section__eyebrow" lang="en">Founders</p>
+        <h2 id="founders-title" class="section__title">AI実践起業塾を立ち上げた理由</h2>
+        <p class="section__lead">
+          「AIを使うだけ」ではなく、<strong>作り、届け、稼ぐ</strong>までを一人で回せる人を増やしたい——その想いから、共同発起人とともにこの塾を立ち上げました。伴走型で、あなたのペースに合わせた学習設計をサポートします。
+        </p>
+        <div class="profile-block">
+          <div class="profile-block__text">
+            <p class="profile-block__lead">
+              次世代の「AIエンジニア」として稼ぐための実践的スクールとして、<strong>行動力</strong>と<strong>実装力</strong>の両方を磨ける場を提供します。
             </p>
-            <ul class="profile__list">
-              <li class="profile__list-item">
-                <span class="profile__list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l4 4 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </span>
-                即座に形にする力 — アイデアを最短で検証
-              </li>
-              <li class="profile__list-item">
-                <span class="profile__list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l4 4 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </span>
-                最新AIの実装経験 — ツールに振り回されない選定力
-              </li>
-              <li class="profile__list-item">
-                <span class="profile__list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l4 4 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </span>
-                実践主義 — 理論より成果と再現性
-              </li>
+            <ul class="profile-list">
+              <li>ノンプログラマーから独立・高単価案件受注までの成功事例を蓄積</li>
+              <li>アプリ開発支援など、チームで開発・販売まで伴走する支援ラインも展開</li>
             </ul>
           </div>
-
-          <aside class="profile-layout__aside" aria-label="実績ハイライト">
-            <div class="profile-card">
-              <p class="profile-card__label">実績ハイライト</p>
-              <div class="profile-card__metrics">
-                <div class="profile-card__metric">
-                  <span class="profile-card__metric-value">300+</span>
-                  <span class="profile-card__metric-key">受講者数</span>
-                </div>
-                <div class="profile-card__metric">
-                  <span class="profile-card__metric-value">¥5M+</span>
-                  <span class="profile-card__metric-key">卒業生累計収益</span>
-                </div>
-              </div>
-              <p class="profile-card__note">
-                ここに具体的な数値・事例・メディア掲載などを掲載します（モックアップのためダミーです）。
-              </p>
-            </div>
+          <aside class="profile-block__aside" aria-label="発起人メッセージ（概要）">
+            <p class="profile-aside__label">Message</p>
+            <p class="profile-aside__note">
+              発起人・共同発起人の詳細プロフィールや経歴は、本番サイト用に差し替えてください（モックアップ）。
+            </p>
           </aside>
         </div>
       </div>
     </section>
 
-    <!-- ========== CTA ========== -->
-    <section id="cta" class="cta" aria-labelledby="cta-title">
-      <div class="cta__bg-accent" aria-hidden="true"></div>
-      <div class="cta__inner">
-        <p class="section__eyebrow cta__eyebrow">Next Step</p>
-        <h2 id="cta-title" class="cta__title">
-          2026年、AIを<br>流行で終わらせない。
-        </h2>
-        <p class="cta__text">
-          一生モノの資産（武器）にするかは、あなたの決断次第です。<br>まずは無料で現状と目標をお聞かせください。
-        </p>
-        <div class="cta__actions">
-          <a href="#" class="btn btn--primary btn--lg">
-            公式LINEで相談（無料）
-            <svg class="btn__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-          <a href="#" class="btn btn--outline btn--lg">申し込みフォーム</a>
+    <!-- 料金 -->
+    <section id="pricing" class="section section--alt anchor-target" aria-labelledby="pricing-title">
+      <div class="section__inner section__inner--narrow">
+        <p class="section__eyebrow" lang="en">Pricing</p>
+        <h2 id="pricing-title" class="section__title">料金プラン</h2>
+        <div class="pricing-card">
+          <p class="pricing-card__name">永年参加権</p>
+          <p class="pricing-card__price"><span class="pricing-card__currency">¥</span>50,000<span class="pricing-card__tax">（税込表記は運用に合わせて調整）</span></p>
+          <ul class="pricing-card__list">
+            <li>300超の動画コンテンツに<strong>永年アクセス</strong></li>
+            <li>11カテゴリで実務スキルを体系的に習得</li>
+            <li>定期セミナー・アーカイブを活用した継続学習</li>
+          </ul>
+          <a href="https://timerex.net/s/kanikaniman1234_00ba/202fa228/" class="btn btn--primary btn--block" target="_blank" rel="noopener noreferrer">無料カウンセリングで詳細を聞く</a>
         </div>
-        <p class="cta__note">※ 無料相談では、目標や現状を伺い、最適なプランをご提案します。</p>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="section anchor-target" aria-labelledby="faq-title">
+      <div class="section__inner">
+        <p class="section__eyebrow" lang="en">FAQ</p>
+        <h2 id="faq-title" class="section__title">よくある質問</h2>
+        <p class="section__lead section__lead--tight">
+          入塾前の不安を解消するため、よくいただく質問をまとめました。
+        </p>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-item__q">プログラミング未経験でも大丈夫ですか？</summary>
+            <p class="faq-item__a">はい。初心者でも安心して学べるよう、基礎から実装まで段階的に進められるカリキュラムです。</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q">卒業後もコンテンツは見られますか？</summary>
+            <p class="faq-item__a">永年参加権では、300超の動画コンテンツへ永年アクセスいただけます。</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q">無料カウンセリングでは何をしますか？</summary>
+            <p class="faq-item__a">あなたの目標や現状をお聞きし、最適な学習プランをご提案します。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- クロージング（CTA） -->
+    <section id="cta" class="cta anchor-target" aria-labelledby="cta-title">
+      <div class="cta__inner">
+        <h2 id="cta-title" class="cta__title">2025年、AIを単なる流行で終わらせるのか、<br>一生モノの資産（武器）にするのか。</h2>
+        <p class="cta__text">
+          その答えは、あなたの決断の中にあります。共に未来を切り開きましょう。
+        </p>
+        <div class="cta__actions">
+          <a href="https://timerex.net/s/kanikaniman1234_00ba/202fa228/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">無料カウンセリングを予約する</a>
+        </div>
+        <p class="cta__note">※無料カウンセリングでは、あなたの目標や現状をお聞きし、最適な学習プランをご提案します</p>
+      </div>
+    </section>
   </main>
 
-  <!-- ========== FOOTER ========== -->
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <div class="site-footer__brand-col">
-        <a href="#" class="site-logo site-logo--light">
-          <span class="site-logo__mark">AI</span><span class="site-logo__text">実践</span>
-        </a>
-        <p class="site-footer__tagline">AIを武器に、稼ぐ力を手に入れる</p>
-      </div>
+      <p class="site-footer__brand">AI実践起業塾</p>
+      <p class="site-footer__tagline">次世代の「AIエンジニア」として稼ぐための実践的スクール</p>
       <nav class="site-footer__nav" aria-label="フッターナビ">
-        <a href="#value">行動指針</a>
-        <a href="#services">サービス</a>
-        <a href="#profile">実績</a>
+        <a href="#intro">はじめに</a>
+        <a href="#features">特徴</a>
+        <a href="#curriculum">カリキュラム</a>
+        <a href="#founders">発起人</a>
+        <a href="#pricing">料金</a>
+        <a href="#faq">FAQ</a>
         <a href="#">プライバシーポリシー</a>
-        <a href="#">特定商取引法</a>
       </nav>
-      <p class="site-footer__copy">&copy; 2026 AI実践. All rights reserved.</p>
+      <p class="site-footer__copy">&copy; 2026 AI実践起業塾. All rights reserved.</p>
     </div>
   </footer>
 

@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'AI実践起業塾 | 次世代のAIエンジニアとして稼ぐための実践的スクール',
+  description:
+    '実務で稼げるAIエンジニアになる。AIを「使う」側から「作る」側へ。300超の動画コンテンツで実践スキルを習得。',
   icons: {
     icon: [
       {
@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className="font-sans antialiased">
         {children}
         <Analytics />

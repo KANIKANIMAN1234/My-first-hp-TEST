@@ -3,7 +3,7 @@ export default function Page() {
     <iframe
       src="/index.html"
       style={{ width: "100%", height: "100vh", border: "none", display: "block" }}
-      title="AI実践 ホームページ"
+      title="AI実践起業塾 | 公式サイト"
     />
   );
 }
