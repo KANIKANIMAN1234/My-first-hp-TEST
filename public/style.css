@@ -182,14 +182,33 @@ a:hover {
   text-decoration: none;
 }
 
-/* ----- Hero (FV) ----- */
+/* ----- Hero (FV) -----
+   背景: images/hero-bg-wide.png（ワイドコラージュ）
+   補助: images/hero-bg-composite.png（デザイン参照用・アセット保管） */
 .hero {
-  background: linear-gradient(160deg, var(--color-main) 0%, var(--color-main-soft) 45%, #0f1729 100%);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   color: #fff;
   padding: clamp(2.5rem, 10vw, 4.5rem) 1rem;
+  background-color: #0f1729;
+  background-image:
+    linear-gradient(
+      115deg,
+      rgba(15, 23, 41, 0.93) 0%,
+      rgba(27, 43, 75, 0.8) 38%,
+      rgba(15, 23, 41, 0.72) 52%,
+      rgba(8, 16, 36, 0.9) 100%
+    ),
+    url("images/hero-bg-wide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero__inner {
+  position: relative;
+  z-index: 1;
   max-width: 42rem;
   margin: 0 auto;
 }
@@ -717,8 +736,17 @@ a:hover {
     font-size: 0.8125rem !important;
   }
 
+  .hero {
+    min-height: min(88vh, 560px);
+    display: flex;
+    align-items: center;
+    padding-top: clamp(3rem, 8vw, 5rem);
+    padding-bottom: clamp(3rem, 8vw, 5rem);
+  }
+
   .hero__inner {
     max-width: 56rem;
+    width: 100%;
   }
 
   .hero__br {
